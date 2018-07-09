@@ -1,0 +1,22 @@
+{
+  "name": "surveyyay",
+  "version": "1.0.0",
+  "description": "An app that helps user create, send email campaign and receive feedback",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phuongha2012/SurveyYay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phuongha2012/SurveyYay/issues"
+  },
+  "homepage": "https://github.com/phuongha2012/SurveyYay#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
