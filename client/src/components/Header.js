@@ -5,7 +5,6 @@ import Payments from './Payments';
 
 class Header extends Component {
   renderContent() {
-    console.log(this.props.auth)
     switch (this.props.auth) {
       case null:
         return;
@@ -15,8 +14,8 @@ class Header extends Component {
         );
       default:
         return [
-          <li><Payments /></li>,
-          <li><a href="/api/logout">Logout</a></li>
+          <li key="1"><Payments /></li>,
+          <li key="2"><a href="/api/logout">Logout</a></li>
         ];
     }
   }
