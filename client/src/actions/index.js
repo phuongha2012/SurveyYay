@@ -18,3 +18,7 @@ export const handleToken = (token) => async dispatch => {
 //         .then(res => dispatch({ type: FETCH_USER, payload: res }));
 //   };
 // };
+
+export const submitSurvey = values => {
+  return { type: 'submit_survey' };
+};
