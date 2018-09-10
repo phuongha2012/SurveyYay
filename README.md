@@ -3,6 +3,8 @@ SurveyYay is an app that enable user to create simple email campaigns, send them
 
 This project made use of:
 
+-React/ Redux for front-end. Express Node.js server
+
 -Google OAuth with Passport.js
 
 -Stripe API for handling payment
