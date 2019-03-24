@@ -36,7 +36,7 @@ function validate (values) {
 
   _.each(formFields, ({ name }) => {
     if (!values[name]) {
-      errors[name] = 'You must provide a value';
+      errors[name] = 'Please enter a value';
     }
   });
 
